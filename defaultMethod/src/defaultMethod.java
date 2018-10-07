@@ -43,6 +43,6 @@ interfere with the Class.
  */
 
 /* All methods in an interface are implicitly public, so you can omit the modifier.
-   Variables declared in interface are public, static and final by default, so you can omit these modifiers.
+   Variables declared in interface are public, static and final by default, so you can omit these modifiers.////
 */
 
