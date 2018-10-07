@@ -2,10 +2,10 @@
 interface nameInterface {
 
     // abstract method --> syntax to implement an abs method -> method();
-    public void square (int a );
+    void square (int a );
 
     // default Method
-    default void show(){
+    default void show(){    // see here there is no PUBLIC keyword
 
          System.out.println("Hello from Default Method!!");
     }
@@ -41,4 +41,8 @@ Because an Interface could only have the possibility to include an abs method wh
 in the following class, DEFAULT METHOD have been introduced. Default method can be implemented in the Interface without
 interfere with the Class.
  */
+
+/* All methods in an interface are implicitly public, so you can omit the modifier.
+   Variables declared in interface are public, static and final by default, so you can omit these modifiers.
+*/
 
